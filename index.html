@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+	<style type="text/css">
+		.smallcontainer{
+			margin: auto;
+			width: 550px;
+		}
+    body{
+      margin: 0;
+      background: url('Rb0ESwK.jpg');
+    }
+    .bbr-img {
+      position: absolute; 
+      bottom: 10px; 
+      left: 10px;
+      height: 100px;
+      width: 100px;
+    }
+	</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Project Feedback</title>
+
+</head>
+
+<body>
+
+  <div class="smallcontainer">
+    <h1 style="color:white">Write something memorable about us</h1>
+
+    <form>
+      <input autocomplete = "off" id="item" type="text" placeholder="Type Here..." style="width: 500px; height: 30px; ">
+      <button style="display: block;border-radius: 12px;background-color:#f1f1f1;margin:10px auto;width: 204px;" type="submit">SUBMIT</button>
+    </form>
+    <button onclick="myFunction()">Show/Hide</button>
+    <div style="display: none;" id="myDIV">
+      <h2 style="display: block;margin:auto;width: 204px;">All The Answers</h2>
+      <ul></ul>
+      <button  style="display: block;margin:auto;" id="clear">Delete All</button>
+    </div>
+
+    
+  </div>
+  <img class="bbr-img" src="bbr.png" style="height:200px; width: 200px" />
+
+  <script src="script.js"></script>
+</body>
+
+</html>
